@@ -5,11 +5,11 @@
 
 This repository contains the necessary files to create a *dockerized* version of dionaea.
 
-This dockerized version is part of the **[T-Pot community honeypot](http://dtag-dev-sec.github.io/)** of Deutsche Telekom AG.
+This dockerized version is part of the Multi-Honeypots.
 
 The `Dockerfile` contains the blueprint for the dockerized dionaea and will be used to setup the docker image.  
 
-The `dionaea.conf` is tailored to fit the T-Pot environment.
+The `dionaea.conf` is tailored to fit the Multi-honeypots environment.
 
 The `supervisord.conf` is used to start dionaea under supervision of supervisord.
 
@@ -26,4 +26,4 @@ By default all data will be stored in `/data/dionaea/` until the honeypot servic
 
 # Dionaea Dashboard
 
-![Dionaea Dashboard](https://raw.githubusercontent.com/dtag-dev-sec/dionaea/master/doc/dashboard.png)
+![Dionaea Dashboard](https://raw.githubusercontent.com/douwanhu/docker-dionaea/master/doc/dashboard.png)
